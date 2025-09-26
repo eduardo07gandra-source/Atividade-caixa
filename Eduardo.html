@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Flexbox</title>
+  <h1>Atividade de HTML</h1>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #2c3e50; /* Fundo preto */
+      color: white; /* Texto branco */
+    }
+    .linha {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      width: 100%;
+      max-width: 600px;
+    }
+    .cubo {
+      width: 50px;
+      height: 50px;
+      background-color: #3498db; /* Cor do cubo */
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      border: 2px solid #2980b9; /* Borda azul escura */
+      border-radius: 5px; /* Borda arredondada */
+    }
+    .linha1 {
+      justify-content: flex-start;
+    }
+    .linha2 {
+      justify-content: center;
+    }
+    .linha3 {
+      justify-content: flex-end;
+    }
+    .linha4 {
+      justify-content: space-between;
+    }
+    .linha5 {
+      justify-content: space-around;
+    }
+    .linha6 {
+      justify-content: space-evenly;
+    }
+    .linha7 {
+      align-items: flex-start;
+    }
+    .linha8 {
+      align-items: center;
+    }
+    .linha9 {
+      align-items: flex-end;
+    }
+    .linha10 {
+      align-items: stretch;
+    }
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="linha linha1">
+    <div class="cubo">1</div>
+    <div class="cubo">2</div>
+    <div class="cubo">3</div>
+  </div>
+  <div class="linha linha2">
+    <div class="cubo">4</div>
+    <div class="cubo">5</div>
+    <div class="cubo">6</div>
+  </div>
+  <div class="linha linha3">
+    <div class="cubo">7</div>
+    <div class="cubo">8</div>
+    <div class="cubo">9</div>
+  </div>
+  <div class="linha linha4">
+    <div class="cubo">10</div>
+    <div class="cubo">11</div>
+    <div class="cubo">12</div>
+  </div>
+  <div class="linha linha5">
+    <div class="cubo">13</div>
+    <div class="cubo">14</div>
+    <div class="cubo">15</div>
+  </div>
+  <div class="linha linha6">
+    <div class="cubo">16</div>
+    <div class="cubo">17</div>
+    <div class="cubo">18</div>
+  </div>
+  <div class="linha linha7">
+    <div class="cubo">19</div>
+    <div class="cubo">20</div>
+    <div class="cubo">21</div>
+  </div>
+  <div class="linha linha8">
+    <div class="cubo">22</div>
+    <div class="cubo">23</div>
+    <div class="cubo">24</div>
+  </div>
+  <div class="linha linha9">
+    <div class="cubo">25</div>
+    <div class="cubo">26</div>
+    <div class="cubo">27</div>
+  </div>
+  <div class="linha linha10">
+    <div class="cubo">28</div>
+    <div class="cubo">29</div>
+    <div class="cubo">30</div>
+  </div>
+
+  <footer>
+    Desenvolvido por: Eduardo Gandra – Desenvolvimento ao Sistema
+  </footer>
+</body>
+</html>
